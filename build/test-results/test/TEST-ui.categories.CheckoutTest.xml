@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ui.categories.CheckoutTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-12-13T14:33:13" hostname="SERGII" time="14.231">
+  <properties/>
+  <testcase name="checkoutAsCustomerTest" classname="ui.categories.CheckoutTest" time="13.495"/>
+  <testcase name="purchaseData" classname="ui.categories.CheckoutTest" time="0.731"/>
+  <system-out><![CDATA[[16:33:13] STEP  > Open 'Home Page'(url=https://www.demoblaze.com/)
+[16:33:13] STEP  > Click on 'Login Button'
+[16:33:14] STEP  > Input 'qatest@test.com' in 'Username Field'
+[16:33:14] STEP  > Input 'test123!' in 'Username Password'
+[16:33:14] STEP  > Click on 'Login Button'
+[16:33:15] STEP  > Assert that 'Welcome Block' is displayed
+[16:33:15] STEP  > Open 'Cart Page'(url=https://www.demoblaze.com/cart.html)
+[16:33:15] INFO  > Page 'Cart Page' opened
+[16:33:15] STEP  > Check that 'Delete Item Buttons' is displayed
+[16:33:15] STEP  > >>> false
+[16:33:15] STEP  > Open 'Home Page'(url=https://www.demoblaze.com/)
+[16:33:15] INFO  > Page 'Home Page' opened
+[16:33:15] STEP  > Click on 'Phones Category'
+[16:33:17] STEP  > Assert that 'Product Titles[2]' is displayed
+[16:33:17] STEP  > Click on 'Product Titles[2]'
+[16:33:18] STEP  > Assert that 'Add To Cart Button' is displayed
+[16:33:18] INFO  > Page 'Product Page' opened
+[16:33:18] STEP  > Click on 'Add To Cart Button'
+[16:33:19] STEP  > Assert equals (expected: Product added., actual: Product added.)
+[16:33:19] STEP  > Click on 'Phones Category'
+[16:33:19] INFO  > Page 'Home Page' opened
+[16:33:20] STEP  > Assert that 'Product Titles[3]' is displayed
+[16:33:21] STEP  > Click on 'Product Titles[3]'
+[16:33:21] STEP  > Click on 'Add To Cart Button'
+[16:33:21] INFO  > Page 'Product Page' opened
+[16:33:22] STEP  > Assert equals (expected: Product added., actual: Product added.)
+[16:33:22] STEP  > Click on 'Cart Button'
+[16:33:22] INFO  > Page 'Home Page' opened
+[16:33:23] INFO  > Page 'Cart Page' opened
+[16:33:23] STEP  > Assert that 'Delete Item Buttons[2]' is displayed
+[16:33:24] STEP  > Assert equals (expected: 2, actual: 2)
+[16:33:24] STEP  > Click on 'Delete Item Buttons[2]'
+[16:33:24] STEP  > Assert that 'Delete Item Buttons[2]' is disappear
+[16:33:24] STEP  > Assert that 'Delete Item Buttons[2]' is displayed
+[16:33:25] STEP  > Assert equals (expected: 1, actual: 1)
+[16:33:25] STEP  > Click on 'Place Order Button'
+[16:33:26] STEP  > Input 'QA' in 'Name Field'
+[16:33:26] STEP  > Input 'Ukraine' in 'Country Field'
+[16:33:26] STEP  > Input 'Kiev' in 'City Field'
+[16:33:26] STEP  > Input '4111 1111 1111 1111' in 'Card Field'
+[16:33:26] STEP  > Input '12' in 'Month Field'
+[16:33:26] STEP  > Input '2021' in 'Year Field'
+[16:33:27] STEP  > Click on 'Purchase Button'
+[16:33:27] STEP  > Assert that 'Purchase Button' is displayed
+[16:33:27] STEP  > Get 'Order Data' text
+[16:33:27] STEP  > >>> Id: 2702635
+Amount: 820 USD
+Card Number: 4111 1111 1111 1111
+Name: QA
+...
+orderDataId: 2702635
+Amount: 820 USD
+Card Number: 4111 1111 1111 1111
+Name: QA
+Date: 13/11/2021
+[16:33:27] STEP  > Get 'Order Data' text
+[16:33:27] STEP  > >>> Id: 2702635
+Amount: 820 USD
+Card Number: 4111 1111 1111 1111
+Name: QA
+...
+[16:33:27] STEP  > Assert true (expected: true, actual: true)
+[16:33:27] STEP  > Get 'Order Data' text
+[16:33:27] STEP  > >>> Id: 2702635
+Amount: 820 USD
+Card Number: 4111 1111 1111 1111
+Name: QA
+...
+[16:33:27] STEP  > Assert true (expected: true, actual: true)
+[16:33:27] STEP  > Get 'Order Data' text
+[16:33:27] STEP  > >>> Id: 2702635
+Amount: 820 USD
+Card Number: 4111 1111 1111 1111
+Name: QA
+...
+[16:33:27] STEP  > Assert true (expected: true, actual: true)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

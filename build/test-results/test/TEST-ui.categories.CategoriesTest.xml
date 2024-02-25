@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ui.categories.CategoriesTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-12-13T14:32:54" hostname="SERGII" time="18.88">
+  <properties/>
+  <testcase name="checkoutAsCustomerTest[0](HomePage.monitorsCategory (xpath='//*[@onclick = &quot;byCat('monitor')&quot;]'))" classname="ui.categories.CategoriesTest" time="5.929"/>
+  <testcase name="checkoutAsCustomerTest[1](HomePage.phonesCategory (xpath='//*[@onclick = &quot;byCat('phone')&quot;]'))" classname="ui.categories.CategoriesTest" time="6.459"/>
+  <testcase name="checkoutAsCustomerTest[2](HomePage.laptopsCategory (xpath='//*[@onclick = &quot;byCat('notebook')&quot;]'))" classname="ui.categories.CategoriesTest" time="6.484"/>
+  <system-out><![CDATA[[16:32:51] STEP  > Open 'Home Page'(url=https://www.demoblaze.com/)
+[16:32:52] STEP  > Assert that 'Footer Block' is displayed
+[16:32:52] STEP  > Open 'Home Page'(url=https://www.demoblaze.com/)
+[16:32:52] STEP  > Click on 'Login Button'
+[16:32:52] STEP  > Input 'qatest@test.com' in 'Username Field'
+[16:32:53] STEP  > Input 'test123!' in 'Username Password'
+[16:32:53] STEP  > Click on 'Login Button'
+[16:32:53] STEP  > Assert that 'Welcome Block' is displayed
+[16:32:54] STEP  > Click on 'All Categories'
+[16:32:55] STEP  > Assert that 'Product Titles[2]' is displayed
+[16:32:56] STEP  > Get '' text
+[16:32:56] STEP  > >>> Samsung galaxy s6
+[16:32:56] STEP  > Get '' text
+[16:32:56] STEP  > >>> Nokia lumia 1520
+[16:32:56] STEP  > Get '' text
+[16:32:57] STEP  > >>> Nexus 6
+[16:32:57] STEP  > Get '' text
+[16:32:57] STEP  > >>> Samsung galaxy s7
+[16:32:57] STEP  > Get '' text
+[16:32:57] STEP  > >>> Iphone 6 32gb
+[16:32:57] STEP  > Get '' text
+[16:32:57] STEP  > >>> Sony xperia z5
+[16:32:57] STEP  > Get '' text
+[16:32:57] STEP  > >>> HTC One M9
+[16:32:57] STEP  > Get '' text
+[16:32:57] STEP  > >>> Sony vaio i5
+[16:32:57] STEP  > Get '' text
+[16:32:57] STEP  > >>> Sony vaio i7
+[16:32:57] STEP  > Click on 'Next Button'
+[16:32:58] STEP  > Assert that 'Product Titles[2]' is displayed
+[16:32:59] STEP  > Get '' text
+[16:32:59] STEP  > >>> Apple monitor 24
+[16:32:59] STEP  > Get '' text
+[16:32:59] STEP  > >>> MacBook air
+[16:32:59] STEP  > Get '' text
+[16:32:59] STEP  > >>> Dell i7 8gb
+[16:32:59] STEP  > Get '' text
+[16:32:59] STEP  > >>> 2017 Dell 15.6 Inch
+[16:32:59] STEP  > Get '' text
+[16:32:59] STEP  > >>> ASUS Full HD
+[16:32:59] STEP  > Get '' text
+[16:32:59] STEP  > >>> MacBook Pro
+[16:32:59] STEP  > Click on 'Monitors Category'
+[16:32:59] STEP  > Assert that 'Footer Block' is displayed
+[16:33:00] STEP  > Get '' text
+[16:33:00] STEP  > >>> Apple monitor 24
+[16:33:00] STEP  > Get '' text
+[16:33:00] STEP  > >>> ASUS Full HD
+[16:33:00] STEP  > Assert true (expected: true, actual: true)
+[16:33:00] STEP  > Click on 'All Categories'
+[16:33:01] STEP  > Assert that 'Product Titles[2]' is displayed
+[16:33:02] STEP  > Get '' text
+[16:33:02] STEP  > >>> Samsung galaxy s6
+[16:33:02] STEP  > Get '' text
+[16:33:02] STEP  > >>> Nokia lumia 1520
+[16:33:02] STEP  > Get '' text
+[16:33:02] STEP  > >>> Nexus 6
+[16:33:02] STEP  > Get '' text
+[16:33:02] STEP  > >>> Samsung galaxy s7
+[16:33:02] STEP  > Get '' text
+[16:33:02] STEP  > >>> Iphone 6 32gb
+[16:33:02] STEP  > Get '' text
+[16:33:03] STEP  > >>> Sony xperia z5
+[16:33:03] STEP  > Get '' text
+[16:33:03] STEP  > >>> HTC One M9
+[16:33:03] STEP  > Get '' text
+[16:33:03] STEP  > >>> Sony vaio i5
+[16:33:03] STEP  > Get '' text
+[16:33:03] STEP  > >>> Sony vaio i7
+[16:33:03] STEP  > Click on 'Next Button'
+[16:33:04] STEP  > Assert that 'Product Titles[2]' is displayed
+[16:33:04] STEP  > Get '' text
+[16:33:04] STEP  > >>> Apple monitor 24
+[16:33:04] STEP  > Get '' text
+[16:33:05] STEP  > >>> MacBook air
+[16:33:05] STEP  > Get '' text
+[16:33:05] STEP  > >>> Dell i7 8gb
+[16:33:05] STEP  > Get '' text
+[16:33:05] STEP  > >>> 2017 Dell 15.6 Inch
+[16:33:05] STEP  > Get '' text
+[16:33:05] STEP  > >>> ASUS Full HD
+[16:33:05] STEP  > Get '' text
+[16:33:05] STEP  > >>> MacBook Pro
+[16:33:05] STEP  > Click on 'Phones Category'
+[16:33:05] STEP  > Assert that 'Footer Block' is displayed
+[16:33:06] STEP  > Get '' text
+[16:33:06] STEP  > >>> Samsung galaxy s6
+[16:33:06] STEP  > Get '' text
+[16:33:06] STEP  > >>> Nokia lumia 1520
+[16:33:06] STEP  > Get '' text
+[16:33:06] STEP  > >>> Nexus 6
+[16:33:06] STEP  > Get '' text
+[16:33:06] STEP  > >>> Samsung galaxy s7
+[16:33:06] STEP  > Get '' text
+[16:33:06] STEP  > >>> Iphone 6 32gb
+[16:33:06] STEP  > Get '' text
+[16:33:06] STEP  > >>> Sony xperia z5
+[16:33:06] STEP  > Get '' text
+[16:33:06] STEP  > >>> HTC One M9
+[16:33:07] STEP  > Assert true (expected: true, actual: true)
+[16:33:07] STEP  > Click on 'All Categories'
+[16:33:08] STEP  > Assert that 'Product Titles[2]' is displayed
+[16:33:09] STEP  > Get '' text
+[16:33:09] STEP  > >>> Samsung galaxy s6
+[16:33:09] STEP  > Get '' text
+[16:33:09] STEP  > >>> Nokia lumia 1520
+[16:33:09] STEP  > Get '' text
+[16:33:09] STEP  > >>> Nexus 6
+[16:33:09] STEP  > Get '' text
+[16:33:09] STEP  > >>> Samsung galaxy s7
+[16:33:09] STEP  > Get '' text
+[16:33:09] STEP  > >>> Iphone 6 32gb
+[16:33:09] STEP  > Get '' text
+[16:33:09] STEP  > >>> Sony xperia z5
+[16:33:09] STEP  > Get '' text
+[16:33:09] STEP  > >>> HTC One M9
+[16:33:09] STEP  > Get '' text
+[16:33:09] STEP  > >>> Sony vaio i5
+[16:33:09] STEP  > Get '' text
+[16:33:09] STEP  > >>> Sony vaio i7
+[16:33:09] STEP  > Click on 'Next Button'
+[16:33:10] STEP  > Assert that 'Product Titles[2]' is displayed
+[16:33:11] STEP  > Get '' text
+[16:33:11] STEP  > >>> Apple monitor 24
+[16:33:11] STEP  > Get '' text
+[16:33:11] STEP  > >>> MacBook air
+[16:33:11] STEP  > Get '' text
+[16:33:11] STEP  > >>> Dell i7 8gb
+[16:33:11] STEP  > Get '' text
+[16:33:11] STEP  > >>> 2017 Dell 15.6 Inch
+[16:33:11] STEP  > Get '' text
+[16:33:11] STEP  > >>> ASUS Full HD
+[16:33:11] STEP  > Get '' text
+[16:33:11] STEP  > >>> MacBook Pro
+[16:33:11] STEP  > Click on 'Laptops Category'
+[16:33:12] STEP  > Assert that 'Footer Block' is displayed
+[16:33:13] STEP  > Get '' text
+[16:33:13] STEP  > >>> Sony vaio i5
+[16:33:13] STEP  > Get '' text
+[16:33:13] STEP  > >>> Sony vaio i7
+[16:33:13] STEP  > Get '' text
+[16:33:13] STEP  > >>> MacBook air
+[16:33:13] STEP  > Get '' text
+[16:33:13] STEP  > >>> Dell i7 8gb
+[16:33:13] STEP  > Get '' text
+[16:33:13] STEP  > >>> 2017 Dell 15.6 Inch
+[16:33:13] STEP  > Get '' text
+[16:33:13] STEP  > >>> MacBook Pro
+[16:33:13] STEP  > Assert true (expected: true, actual: true)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

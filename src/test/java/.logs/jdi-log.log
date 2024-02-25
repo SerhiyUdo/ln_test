@@ -1,0 +1,8 @@
+22:44.539 [JDI:INFO]: Download driver: 'CHROME X32' successfully
+22:44.545 [JDI:INFO]: Use driver path: C:\Users\serhi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+22:48.238 [JDI:INFO]: Failed to download driver (CHROME latest) of latest version:TRY TO GET DRIVER PREVIOUS VERSION
+22:49.760 [JDI:INFO]: Download driver: 'CHROME X32 113.0.5672.63' successfully
+22:51.731 [JDI:INFO]: Download driver: 'CHROME X32' successfully
+22:51.732 [JDI:INFO]: Use driver path: C:\Users\serhi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+22:54.696 [JDI:INFO]: Failed to download driver (CHROME latest) of latest version:TRY TO GET DRIVER PREVIOUS VERSION
+22:56.99 [JDI:INFO]: Download driver: 'CHROME X32 113.0.5672.63' successfully

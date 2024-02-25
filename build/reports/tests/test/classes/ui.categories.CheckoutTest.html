@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class ui.categories.CheckoutTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class ui.categories.CheckoutTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/ui.categories.html">ui.categories</a> &gt; CheckoutTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">14.226s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">checkoutAsCustomerTest</td>
+<td class="success">13.495s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">purchaseData</td>
+<td class="success">0.731s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[16:33:13] STEP  &gt; Open 'Home Page'(url=https://www.demoblaze.com/)
+[16:33:13] STEP  &gt; Click on 'Login Button'
+[16:33:14] STEP  &gt; Input 'qatest@test.com' in 'Username Field'
+[16:33:14] STEP  &gt; Input 'test123!' in 'Username Password'
+[16:33:14] STEP  &gt; Click on 'Login Button'
+[16:33:15] STEP  &gt; Assert that 'Welcome Block' is displayed
+[16:33:15] STEP  &gt; Open 'Cart Page'(url=https://www.demoblaze.com/cart.html)
+[16:33:15] INFO  &gt; Page 'Cart Page' opened
+[16:33:15] STEP  &gt; Check that 'Delete Item Buttons' is displayed
+[16:33:15] STEP  &gt; &gt;&gt;&gt; false
+[16:33:15] STEP  &gt; Open 'Home Page'(url=https://www.demoblaze.com/)
+[16:33:15] INFO  &gt; Page 'Home Page' opened
+[16:33:15] STEP  &gt; Click on 'Phones Category'
+[16:33:17] STEP  &gt; Assert that 'Product Titles[2]' is displayed
+[16:33:17] STEP  &gt; Click on 'Product Titles[2]'
+[16:33:18] STEP  &gt; Assert that 'Add To Cart Button' is displayed
+[16:33:18] INFO  &gt; Page 'Product Page' opened
+[16:33:18] STEP  &gt; Click on 'Add To Cart Button'
+[16:33:19] STEP  &gt; Assert equals (expected: Product added., actual: Product added.)
+[16:33:19] STEP  &gt; Click on 'Phones Category'
+[16:33:19] INFO  &gt; Page 'Home Page' opened
+[16:33:20] STEP  &gt; Assert that 'Product Titles[3]' is displayed
+[16:33:21] STEP  &gt; Click on 'Product Titles[3]'
+[16:33:21] STEP  &gt; Click on 'Add To Cart Button'
+[16:33:21] INFO  &gt; Page 'Product Page' opened
+[16:33:22] STEP  &gt; Assert equals (expected: Product added., actual: Product added.)
+[16:33:22] STEP  &gt; Click on 'Cart Button'
+[16:33:22] INFO  &gt; Page 'Home Page' opened
+[16:33:23] INFO  &gt; Page 'Cart Page' opened
+[16:33:23] STEP  &gt; Assert that 'Delete Item Buttons[2]' is displayed
+[16:33:24] STEP  &gt; Assert equals (expected: 2, actual: 2)
+[16:33:24] STEP  &gt; Click on 'Delete Item Buttons[2]'
+[16:33:24] STEP  &gt; Assert that 'Delete Item Buttons[2]' is disappear
+[16:33:24] STEP  &gt; Assert that 'Delete Item Buttons[2]' is displayed
+[16:33:25] STEP  &gt; Assert equals (expected: 1, actual: 1)
+[16:33:25] STEP  &gt; Click on 'Place Order Button'
+[16:33:26] STEP  &gt; Input 'QA' in 'Name Field'
+[16:33:26] STEP  &gt; Input 'Ukraine' in 'Country Field'
+[16:33:26] STEP  &gt; Input 'Kiev' in 'City Field'
+[16:33:26] STEP  &gt; Input '4111 1111 1111 1111' in 'Card Field'
+[16:33:26] STEP  &gt; Input '12' in 'Month Field'
+[16:33:26] STEP  &gt; Input '2021' in 'Year Field'
+[16:33:27] STEP  &gt; Click on 'Purchase Button'
+[16:33:27] STEP  &gt; Assert that 'Purchase Button' is displayed
+[16:33:27] STEP  &gt; Get 'Order Data' text
+[16:33:27] STEP  &gt; &gt;&gt;&gt; Id: 2702635
+Amount: 820 USD
+Card Number: 4111 1111 1111 1111
+Name: QA
+...
+orderDataId: 2702635
+Amount: 820 USD
+Card Number: 4111 1111 1111 1111
+Name: QA
+Date: 13/11/2021
+[16:33:27] STEP  &gt; Get 'Order Data' text
+[16:33:27] STEP  &gt; &gt;&gt;&gt; Id: 2702635
+Amount: 820 USD
+Card Number: 4111 1111 1111 1111
+Name: QA
+...
+[16:33:27] STEP  &gt; Assert true (expected: true, actual: true)
+[16:33:27] STEP  &gt; Get 'Order Data' text
+[16:33:27] STEP  &gt; &gt;&gt;&gt; Id: 2702635
+Amount: 820 USD
+Card Number: 4111 1111 1111 1111
+Name: QA
+...
+[16:33:27] STEP  &gt; Assert true (expected: true, actual: true)
+[16:33:27] STEP  &gt; Get 'Order Data' text
+[16:33:27] STEP  &gt; &gt;&gt;&gt; Id: 2702635
+Amount: 820 USD
+Card Number: 4111 1111 1111 1111
+Name: QA
+...
+[16:33:27] STEP  &gt; Assert true (expected: true, actual: true)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.1.1</a> at Dec 13, 2021, 4:33:28 PM</p>
+</div>
+</div>
+</body>
+</html>
