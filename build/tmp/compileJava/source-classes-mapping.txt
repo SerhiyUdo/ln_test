@@ -1,0 +1,18 @@
+utils/LocalStorage.java
+ utils.LocalStorage
+utils/AllureAssert.java
+ utils.AllureAssert
+utils/PageWaiters.java
+ utils.PageWaiters
+ utils.PageWaiters$1
+ utils.PageWaiters$2
+ui/pages/HomePage.java
+ ui.pages.HomePage
+ui/_site/ServerSite.java
+ ui._site.ServerSite
+entities/Account.java
+ entities.Account
+ui/pages/LoginPage.java
+ ui.pages.LoginPage
+ui/pages/AccountPage.java
+ ui.pages.AccountPage

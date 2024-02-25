@@ -5,7 +5,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import ui._site.ServerSite;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 import java.util.logging.Level;
 
 import static com.epam.jdi.light.driver.WebDriverFactory.getDriver;
@@ -22,16 +22,10 @@ public class AbstractTest {
             e.base().setLocator("#" + toCamelCase(e.getName()).replaceAll(" ", ""));
             e.base().locator.isRoot();
         }));
-
-        java.util.logging.Logger.getLogger("org.openqa.selenium").setLevel(Level.OFF);
-        System.setProperty("webdriver.chrome.silentOutput", "true");
-
+        java.util.logging.Logger.getLogger("org.openqa.selenium").setLevel(Level.ALL);
         initSite(ServerSite.class);
-        getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
-
-        ServerSite.homePage.open();
+        getDriver().manage().timeouts().implicitlyWait(Duration.ofMillis(500));
     }
-
 
     @AfterSuite(alwaysRun = true)
     public void tearDown() {

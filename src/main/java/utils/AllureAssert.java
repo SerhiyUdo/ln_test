@@ -26,14 +26,6 @@ public class AllureAssert extends AllureLogger {
         Assert.assertEquals(actual, expected, errorMessage);
     }
 
-    public static void assertEquals(String stepDescription, Object actual, Object expected) {
-        assertEquals(stepDescription, actual, expected, null);
-    }
-
-    public static void assertEquals(Object actual, Object expected) {
-        assertEquals("Assert equals", actual, expected, null);
-    }
-
     private static void logAllureStep(String stepDescription, boolean condition) {
         String stepId = startStep(stepDescription);
         if (condition) {

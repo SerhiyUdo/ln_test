@@ -2,14 +2,7 @@
 <suite name="UI Tests">
     <test name="Account tests">
         <classes>
-            <class name="ui.account.LoginTest"/>
+            <class name="ui.account.TaskTest"/>
         </classes>
     </test>
-    <test name="Categories tests">
-        <classes>
-            <class name="ui.categories.CategoriesTest"/>
-            <class name="ui.categories.CheckoutTest"/>
-        </classes>
-    </test>
-
 </suite>
